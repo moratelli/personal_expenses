@@ -191,13 +191,6 @@ class _MyHomePageState extends State<MyHomePage> {
                 mediaQuery,
                 appBar,
                 txListWidget,
-              ),
-            if (!isLandscape) txListWidget,
-            if (isLandscape)
-              ..._buildLandscapeContent(
-                mediaQuery,
-                appBar,
-                txListWidget,
               )
           ],
         ),
